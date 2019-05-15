@@ -13,9 +13,9 @@ class App extends Component {
         {
           text:
             "With the emergence of fields such as Predictive Analysis, Machine Learning, and Artificial Intelligence, " +
-            "the use and collection of data has become increasingly desireable. In an effort to enhance systems, processes," +
+            "the use and collection of data has become increasingly desireable. In an effort to enhance systems, processes, " +
             "and improve accuracy of predictive models, data has become an integral part of statistical methods and business decisions." +
-            "As a concrete form of data with a decreased level of ambiguity and increased sample sizes, large collections of data become influential in large-scale decision making, power, and profit."
+            " As a concrete form of data with a decreased level of ambiguity and increased sample sizes, large collections of data become influential in large-scale decision making, power, and profit."
         },
         {
           text:
