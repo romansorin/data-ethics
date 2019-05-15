@@ -3,8 +3,6 @@ import React, { Component } from "react";
 import Header from "./components/Header.js";
 import Home from "./components/Home.js";
 import Title from "./components/Title.js";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
 
 class App extends Component {
