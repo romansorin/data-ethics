@@ -1,18 +1,17 @@
 import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 export class Title extends Component {
   render() {
     return (
-      <Container>
-        <Row className="flex-column">
-          <h1 className="title">Information</h1>
-          <h2 className="subtitle">
-            How a subtitle can help introduce information
-          </h2>
-        </Row>
+      <Container className="page-title-container flex-column">
+        <h1 className="title">
+          Why Data Ethics and Privacy Need Excessive Attention
+        </h1>
+        <h2 className="subtitle">
+          How the prevalence of data affects global and daily decisions by
+          consumers, corportations, and government – and where it's headed.
+        </h2>
       </Container>
     );
   }

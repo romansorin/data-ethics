@@ -10,10 +10,6 @@
   }
 }
 
-.navbar-brand {
-  font-size: 22px;
-}
-
 .navbar {
   margin-top: 16px;
 }
@@ -22,17 +18,52 @@
   font-size: 58px;
   color: #3a3a3a;
   letter-spacing: 0px !important;
-  max-width: 890px;
+  max-width: 750px;
   line-height: 1.14;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-weight: 600;
 }
 
 .subtitle {
   font-weight: 400;
   color: #3a3a3a;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.46;
-  max-width: 684px;
+  max-width: 690px;
   margin-bottom: 60px;
+}
+
+.content {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.75;
+  color: #333;
+}
+
+.page-title-container {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.content-container {
+  margin-bottom: 40px;
+}
+
+.section-heading {
+  font-size: 30px;
+  color: #3a3a3a;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.content-img {
+  margin-bottom: 100px;
+  margin-top: 70px;
+
+  @media (max-width: 575.98px) {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    height: 400px;
+  }
 }

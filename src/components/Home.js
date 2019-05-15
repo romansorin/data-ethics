@@ -10,14 +10,13 @@ export class Home extends Component {
     const contentItems = content.map((content, index) => (
       <p className="content" key={index}>
         {content.text}
-        <br />
       </p>
     ));
 
     return (
-      <Container>
+      <Container className="content-container">
         <Heading heading={contentHeadings} />
-        <Row>{contentItems}</Row>
+        {contentItems}
       </Container>
     );
   }

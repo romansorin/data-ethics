@@ -3,12 +3,7 @@ import Row from "react-bootstrap/Row";
 
 export class Heading extends Component {
   render() {
-    const heading = this.props.heading;
-    return (
-      <Row>
-        <h2 className="section-heading">{heading}</h2>
-      </Row>
-    );
+    return <h2 className="section-heading">{this.props.heading}</h2>;
   }
 }
 
