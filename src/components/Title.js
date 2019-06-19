@@ -10,7 +10,7 @@ export class Title extends Component {
         </h1>
         <h2 className="subtitle">
           How the prevalence of data affects global and daily decisions by
-          consumers, corportations, and government – and where it's headed.
+          consumers, corporations, and government – and where it's headed.
         </h2>
       </Container>
     );
