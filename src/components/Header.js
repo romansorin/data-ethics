@@ -24,10 +24,10 @@ export class Header extends Component {
               <Nav.Link href="https://www.linkedin.com/in/romansorin">
                 <FaLinkedinIn />
               </Nav.Link>
-              <Nav.Link href="https://www.twitter.com/rmsorin">
+              <Nav.Link href="https://www.twitter.com/romansorinn">
                 <FaTwitter />
               </Nav.Link>
-              <Nav.Link href="https://www.instagram.com/rm.sorin">
+              <Nav.Link href="https://www.instagram.com/romansorinn">
                 <FaInstagram />
               </Nav.Link>
               <Nav.Link href="https://www.romansorin.com">
